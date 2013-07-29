@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<extension type="component" version="2.5" method="upgrade">
+<name>CSDownloads</name> 
+<creationDate>July 2013</creationDate> 
+<author>Codesparks</author> 
+<authorEmail>codesparks@gmail.com</authorEmail> 
+<authorUrl>http://www.codesparks.in</authorUrl> 
+<copyright>2013 codesparks</copyright> 
+<license>This component in released under the GNU/GPL v3 or later license</license> 
+<version>0.0.1</version> 
+<description>Download Manager</description> 
+
+<files folder="site">
+	<filename>index.html</filename> 
+</files>
+
+<media destination="com_csdownloads" folder="media">
+	<folder>js</folder> 
+	<folder>css</folder> 
+	<folder>images</folder> 
+	<filename>index.html</filename> 
+</media>
+  
+<scriptfile>script.php</scriptfile> 
+  
+<languages>
+	<language tag="en-GB">languages/site/en-GB.com_csdownloads.ini</language> 
+</languages>
+
+<!--<install>
+	<sql>
+	<file driver="mysql" charset="utf8">install/sql/install.mysql.utf8.sql</file> 
+  </sql>
+  </install>-->
+
+  <!--  Administrator back-end section 
+  --> 
+<administration>
+	<menu view="dashboard">COM_CSDOWNLOADS</menu> 
+
+	<files folder="admin">
+	  <filename>index.html</filename> 
+	</files>
+	
+	<languages>
+		<language tag="en-GB">languages/admin/en-GB.com_csdownloads.ini</language> 
+		<language tag="en-GB">languages/admin/en-GB.com_csdownloads.sys.ini</language> 
+	</languages>
+</administration>
+</extension>
