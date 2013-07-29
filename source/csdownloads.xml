@@ -39,7 +39,11 @@
 	<menu view="dashboard">COM_CSDOWNLOADS</menu> 
 
 	<files folder="admin">
-	  <filename>index.html</filename> 
+		<filename>index.html</filename> 
+		<filename>csdownloads.php</filename> 
+		<folder>includes</folder> 
+		<folder>base</folder> 
+		<folder>controller</folder>	
 	</files>
 	
 	<languages>
