@@ -36,4 +36,9 @@ class CSDownloadsController extends JControllerLegacy
 
 		return $this->name;
 	}
+	
+	public function grid()
+	{
+		$this->getView()->grid();
+	}
 }
