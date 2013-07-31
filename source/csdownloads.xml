@@ -43,7 +43,8 @@
 		<filename>csdownloads.php</filename> 
 		<folder>includes</folder> 
 		<folder>base</folder> 
-		<folder>controller</folder>	
+		<folder>controllers</folder>	
+		<folder>libs</folder>	
 		<folder>views</folder>	
 	</files>
 	
