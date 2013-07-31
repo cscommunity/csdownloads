@@ -44,6 +44,7 @@
 		<folder>includes</folder> 
 		<folder>base</folder> 
 		<folder>controller</folder>	
+		<folder>views</folder>	
 	</files>
 	
 	<languages>
